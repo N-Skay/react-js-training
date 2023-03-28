@@ -1,0 +1,26 @@
+# SPA's: Single Page Application, um único arquivo 
+index vai rodar toda a aplicação.
+
+# JSX: As tags HTML vão renderizar todas dentro do JS, ou seja,
+todas sendo passadas dentro de um "return" na função.
+
+# Virtual DOM: Observa as alterações realizadas no react e passando
+para a tela do usuário.
+
+# Comando básico de criação do projeto React: npx creacte-react-app my-app.
+
+# Não esqueça o 'npm start' para iniciar a aplicação no navegador.
+
+# Pode excluir alguns arquivos inicialmente desnecessários, como:
+- App.test.js
+- reportWebVitals.js 
+- setupTests.js 
+- logo.svg 
+- Não esqueça de remover tbm dentro do index.js: reportWebVitals(); e seu import.
+
+# Para usar a interpolação de varáveis, use: {}.
+
+# Sempre que for usar um componente, não esqueça de importar ele.
+
+# Por boas práticas, pode-se criar um nova pasta dentro do src, chamada de components,
+armazenando nela todo o conteúdo necessário.
