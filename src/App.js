@@ -1,10 +1,13 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
   const name = 'Nicolas';
   const Newname = name.toUpperCase();
+  const nome = 'Nome Dinâmico';
   const url = 'https://via.placeholder.com/150'
   
   function sum(x,y){
@@ -47,7 +50,19 @@ function App() {
 
       <hr></hr>
 
-      
+      <h5>Exemplo de props:</h5>
+      <SayMyName name="Nicolas"/>
+      <SayMyName name="Matheus"/>
+      <SayMyName name={nome}/>
+
+      <hr></hr>
+
+      <Pessoa 
+      nome="Nicolas" 
+      idade="18" 
+      profissao="Programador Front-End" 
+      foto="https://via.placeholder.com/100"/>
+
     </div>
   );
 }
