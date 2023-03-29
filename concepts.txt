@@ -29,3 +29,6 @@ armazenando nela todo o conteúdo necessário.
 Esse valor é passado como um atributo, de "pai para filho".
 Este, precisa ser resgatado dentro de uma propriedade chamada Props
 na própria função do componente.
+
+# Fragments: criação de componentes seu seu elemento pai, permitindo descomplicar 
+os nós do DOM, sintaxe: <> </>.
