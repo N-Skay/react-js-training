@@ -2,6 +2,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
 
@@ -62,6 +63,11 @@ function App() {
       idade="18" 
       profissao="Programador Front-End" 
       foto="https://via.placeholder.com/100"/>
+
+      <hr></hr>
+
+      <h4>Componente Frase estilizado:</h4>
+      <Frase/>
 
     </div>
   );
