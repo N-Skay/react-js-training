@@ -37,3 +37,6 @@ os nós do DOM, sintaxe: <> </>.
 no componente, e também podemos definir um valor padrão, usando o defaultProps.
 São validações a nível de programação, então muitos erros que serão gerados pelas validações, vão
 ser retornados pelo Console na inspeção de elemento da página.
+
+# Eventos em React: Eventos que correspondem a um click, que são os mesmos que o DOM, normalmente,
+o evento é atrelado a alguma tag para executá-lo, e um método é atribuído em um evento.
