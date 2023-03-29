@@ -5,6 +5,8 @@ import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
 import List from './components/List';
 import ADVPlist from './components/ADVPlist';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
 
@@ -80,6 +82,16 @@ function App() {
 
       <h4>Props Avançado:</h4>
       <ADVPlist/>
+
+      <hr></hr>
+
+      <h4>Componente de Eventos:</h4>
+      <Evento numero="1"/>
+
+      <hr></hr>
+
+      <h4>Componente Forms com eventos:</h4>
+      <Form/>
 
     </div>
   );
