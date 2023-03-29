@@ -1,3 +1,9 @@
+# Arquivo de definições
+
+O arquivo `concepts.txt`, possui diversar definições resumidas sobre algumas das funções e possibilidade do React JS, como um dicionário.
+
+Abaixo, segue a documentação padrão do Node/React:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
