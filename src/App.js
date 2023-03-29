@@ -4,6 +4,7 @@ import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
 import List from './components/List';
+import ADVPlist from './components/ADVPlist';
 
 function App() {
 
@@ -74,6 +75,11 @@ function App() {
 
       <h4>Componente Fragmentado:</h4>
       <List/>
+
+      <hr></hr>
+
+      <h4>Props Avançado:</h4>
+      <ADVPlist/>
 
     </div>
   );
