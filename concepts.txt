@@ -46,3 +46,6 @@ funcionando também com eventos.
 
 # Methods + Props: Os métodos do react podem ser passados por props, onde um componente filho pode ativar
 o método de seu pai, esse método, é acessado por um evento.
+
+# Renderização por Condição: Atrelar a exibição de um elemento a um IF, essa condição é chamada no React de
+renderização condicional, sendo possível usar state para criar condições.

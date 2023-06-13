@@ -7,6 +7,7 @@ import List from './components/List';
 import ADVPlist from './components/ADVPlist';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional'
 
 function App() {
 
@@ -92,6 +93,11 @@ function App() {
 
       <h4>Componente Forms com eventos:</h4>
       <Form/>
+
+      <hr></hr>
+
+      <h4>Renderização Condicional</h4>
+      <Condicional/>
 
     </div>
   );
