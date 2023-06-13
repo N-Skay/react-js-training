@@ -43,3 +43,6 @@ o evento é atrelado a alguma tag para executá-lo, e um método é atribuído e
 
 # useState é um hook do React, que permite os usuários manipularem o estado de um componente, 
 funcionando também com eventos.
+
+# Methods + Props: Os métodos do react podem ser passados por props, onde um componente filho pode ativar
+o método de seu pai, esse método, é acessado por um evento.
