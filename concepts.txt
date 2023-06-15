@@ -52,3 +52,5 @@ renderização condicional, sendo possível usar state para criar condições.
 
 # Renderização de Listas: Para usá-las, vamos precisar de um array, e também de uma função map, que
 percorre esses itens, é igualmente possível unir operadores condicionais na renderização.
+
+# State lift: É uma técnicad e compartilhamento do state.

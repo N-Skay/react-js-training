@@ -9,8 +9,14 @@ import Evento from './components/Evento';
 import Form from './components/Form';
 import Condicional from './components/Condicional'
 import ListRender from './components/ListRender';
+import { useState } from 'react';
+import SeuNome from './components/SeuNome';
+import Saudacao from './components/Saudacao';
 
 function App() {
+
+
+  const [OutroNome, setNome] = useState()
 
   const name = 'Nicolas';
   const Newname = name.toUpperCase();
@@ -102,10 +108,17 @@ function App() {
       <h4>Renderização Condicional</h4>
       <Condicional/>
 
+      <hr></hr>
+
       <h4>Renderização de Listas</h4>
       <ListRender itens={lista}></ListRender>
       <ListRender itens={[]}></ListRender>
 
+      <hr></hr>
+
+      <h4>State Lift</h4>
+      <SeuNome setNome={setNome} />
+      <Saudacao nome={OutroNome}/>
     </div>
   );
 }
