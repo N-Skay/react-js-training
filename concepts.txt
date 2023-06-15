@@ -30,7 +30,7 @@ Esse valor é passado como um atributo, de "pai para filho".
 Este, precisa ser resgatado dentro de uma propriedade chamada Props
 na própria função do componente.
 
-# Fragments: criação de componentes seu seu elemento pai, permitindo descomplicar 
+# Fragments: criação de componentes sem seu elemento pai, permitindo descomplicar 
 os nós do DOM, sintaxe: <> </>.
 
 # Props Avançado: Pode-se definir tipos para as props, como uma validação, chamda propTypes
@@ -49,3 +49,6 @@ o método de seu pai, esse método, é acessado por um evento.
 
 # Renderização por Condição: Atrelar a exibição de um elemento a um IF, essa condição é chamada no React de
 renderização condicional, sendo possível usar state para criar condições.
+
+# Renderização de Listas: Para usá-las, vamos precisar de um array, e também de uma função map, que
+percorre esses itens, é igualmente possível unir operadores condicionais na renderização.

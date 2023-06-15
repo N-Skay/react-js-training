@@ -8,6 +8,7 @@ import ADVPlist from './components/ADVPlist';
 import Evento from './components/Evento';
 import Form from './components/Form';
 import Condicional from './components/Condicional'
+import ListRender from './components/ListRender';
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
   const Newname = name.toUpperCase();
   const nome = 'Nome Dinâmico';
   const url = 'https://via.placeholder.com/150'
+
+  const lista = ['React', 'Angular', 'Vue']
   
   function sum(x,y){
     return x+y
@@ -98,6 +101,10 @@ function App() {
 
       <h4>Renderização Condicional</h4>
       <Condicional/>
+
+      <h4>Renderização de Listas</h4>
+      <ListRender itens={lista}></ListRender>
+      <ListRender itens={[]}></ListRender>
 
     </div>
   );
