@@ -58,3 +58,5 @@ percorre esses itens, é igualmente possível unir operadores condicionais na re
 # Router: É um pacote para mudanças de URL sem o page reload da aplicação, trocando apenas uma parte do
 layout, para usá-lo, é necessário a instalação desse pacote. ATENÇÃO -> O 'SWITCH' FUI SUBSTITUIDO POR 'ROUTES',
 siga exatamente o que está no arquivo App.js, que o resultado ta garantido.
+
+# React Icon: Um pacote externo, adicionavel por npm, podendo adicionar ícones que forma fácil.
