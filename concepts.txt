@@ -54,3 +54,7 @@ renderização condicional, sendo possível usar state para criar condições.
 percorre esses itens, é igualmente possível unir operadores condicionais na renderização.
 
 # State lift: É uma técnicad e compartilhamento do state.
+
+# Router: É um pacote para mudanças de URL sem o page reload da aplicação, trocando apenas uma parte do
+layout, para usá-lo, é necessário a instalação desse pacote. ATENÇÃO -> O 'SWITCH' FUI SUBSTITUIDO POR 'ROUTES',
+siga exatamente o que está no arquivo App.js, que o resultado ta garantido.

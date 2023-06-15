@@ -12,6 +12,11 @@ import ListRender from './components/ListRender';
 import { useState } from 'react';
 import SeuNome from './components/SeuNome';
 import Saudacao from './components/Saudacao';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './components/pages/Home';
+import Contato from './components/pages/Contato';
+import Empresa from './components/pages/Empresa';
+import Navbar from './components/Navbar';
 
 function App() {
 
@@ -33,6 +38,20 @@ function App() {
 
   return (
     <div className="App">
+
+
+      <Router>
+        
+       <Navbar/>
+
+        <Routes>
+          <Route exact path="/" element={<Home/>} /> 
+          <Route path="/empresa" element={<Empresa/>} /> 
+          <Route path="/contato" element={<Contato/>} /> 
+        </Routes>
+
+      </Router>
+
 
       <h4>Uso de tag's HTML simples com JSX:</h4>
       <h1>React JS</h1>
